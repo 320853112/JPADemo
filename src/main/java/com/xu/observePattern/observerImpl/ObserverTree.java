@@ -1,6 +1,6 @@
-package com.xu.observeDesign.observerImpl;
+package com.xu.observePattern.observerImpl;
 
-import com.xu.observeDesign.Observer;
+import com.xu.observePattern.Observer;
 
 public class ObserverTree implements Observer {
     @Override

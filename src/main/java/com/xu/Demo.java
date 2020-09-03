@@ -7,6 +7,8 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Optional;
 
 public class Demo {
     public static void main(String[] args) throws NoSuchMethodException {
@@ -14,6 +16,8 @@ public class Demo {
         Father b = new Father();
         String name = (String)a.name;
         b.name = name;
+
+        ArrayList<Object> objects = new ArrayList<>();
 //
 //
 //        Class<Demo> demoClass = Demo.class;

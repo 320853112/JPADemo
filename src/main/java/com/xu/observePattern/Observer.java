@@ -1,4 +1,4 @@
-package com.xu.observeDesign;
+package com.xu.observePattern;
 
 public interface Observer {
     void notify(String word);
